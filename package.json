@@ -15,7 +15,8 @@
     "next": "latest",
     "prettier": "^3.0.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-parallax-mouse": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "latest",

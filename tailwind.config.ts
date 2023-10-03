@@ -15,7 +15,7 @@ const config: Config = {
         primaryWhite: "#FEFEFE",
       },
       fontFamily: {
-        montserrat: ["montserrat", "sans-serif"],
+        saira: ["Saira Extra Condensed", "sans-serif"],
       },
     },
   },

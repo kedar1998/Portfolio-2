@@ -2,7 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 import React from "react";
 // eslint-disable-next-line camelcase
-import { Source_Sans_3, Montserrat } from "next/font/google";
+import { Source_Sans_3 } from "next/font/google";
+
+// Saira Extra Condensed
 
 export const metadata: Metadata = {
   title: "Kedar | Frontend Developer",
@@ -14,11 +16,6 @@ const SourceSans3 = Source_Sans_3({
   variable: "--font-sourcesans3",
 });
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-});
-
 export default function RootLayout({
   children,
 }: {
@@ -26,9 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${SourceSans3.variable} ${montserrat.variable}`}>
-        {children}
-      </body>
+      <body className={`${SourceSans3.variable}`}>{children}</body>
     </html>
   );
 }
