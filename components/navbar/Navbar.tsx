@@ -12,36 +12,36 @@ const Navbar = () => {
             className="flex w-1/2 cursor-pointer items-center justify-start gap-2 border-r-[1px] border-darkGray py-4 md:w-1/5"
           >
             <Image src="/assets/logo.svg" alt="logo" width={20} height={20} />
-            <h1 className="text-sm tracking-widest md:text-xs">KEDAR</h1>
+            <h1 className="text-sm tracking-widest">KEDAR</h1>
           </Link>
-          <div className="hidden items-center justify-around py-4  text-xs tracking-widest md:flex md:w-3/5">
+          <div className="hidden items-center justify-around py-4  text-sm tracking-widest md:flex md:w-3/5">
             <Link
               href="/"
-              className="hover:cursor-pointer hover:text-primaryWhite"
+              className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               PROJECTS
             </Link>
             <Link
               href="/"
-              className="hover:cursor-pointer hover:text-primaryWhite"
+              className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               EXPERIMENT
             </Link>
             <Link
               href="/"
-              className="hover:cursor-pointer hover:text-primaryWhite"
+              className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               ABOUT
             </Link>
           </div>
-          <div className="flex w-1/2 items-center justify-end gap-2 border-darkGray py-4 text-sm tracking-widest md:w-1/5 md:border-l-[1px] md:text-xs">
+          <div className="flex w-1/2 items-center justify-end gap-2 border-darkGray py-4 text-sm tracking-widest md:w-1/5 md:border-l-[1px] ">
             <Image
               src="/assets/resume.svg"
               alt="resume icon"
               width={20}
               height={20}
             />
-            <p className="hover:cursor-pointer hover:text-primaryWhite">
+            <p className="tracking-widest hover:cursor-pointer hover:text-primaryWhite">
               RESUME
             </p>
           </div>
