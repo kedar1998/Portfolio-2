@@ -10,48 +10,42 @@ import {
 const Hero = () => {
   return (
     <MouseParallaxContainer globalFactorX={0.2} globalFactorY={0.3}>
-      <div className="mx-auto  max-w-[1440px] bg-primaryBlack px-5 text-lightGray md:h-screen md:px-36 ">
-        <div className="flex h-full flex-col items-center justify-center">
-          <div className="flex flex-col items-end justify-end">
-            {/* ROW-1 */}
-            <div className="flex items-center justify-center gap-5 xl:items-start">
-              <MouseParallaxChild factorX={0.1} factorY={0.2}>
-                <Image
-                  src="/assets/main.svg"
-                  height={200}
-                  width={280}
-                  alt="Cubes"
-                  className="-z-50 h-[300px] w-[120px] md:w-[300px]  xl:w-[300px]"
-                />
-              </MouseParallaxChild>
-              <h2 className="font-saira text-[83px] font-extrabold sm:ml-10 md:text-[120px]  lg:text-[140px]  xl:text-[158px]">
-                CRAFTING
-              </h2>
-            </div>
-            {/* ROW-2 */}
-            <div className=" flex items-start gap-5 md:-mt-16 xl:-mt-28">
-              <h2 className="z-40 font-saira text-[83px] font-bold md:text-[120px] lg:text-[140px] xl:text-[158px]">
-                ONLINE EXPERIENCES
-              </h2>
-              {/* <div className="hidden md:mt-8 md:block">
-              <p className=" mb-2 text-sm tracking-widest">ABOUT</p>
-              <p className="max-w-xs text-sm text-lightGray">
-                I’m a front-end developer and co-founder of Codista, a software
-                studio in Vienna. I also write about the web on my blog and
-                elsewhere.
-              </p>
-            </div> */}
+      <div>
+        <div className="mx-auto max-w-[1440px]">
+          <div className="px-6 text-lightGray md:px-36">
+            <div className="mt-40 flex items-center justify-center md:mt-0 md:h-screen">
+              <div className="relative flex flex-row items-center max-lg:w-full lg:flex-col lg:items-end">
+                {/* Box-01 */}
+                <div className="flex items-center gap-5">
+                  <MouseParallaxChild factorX={0.2} factorY={0.2}>
+                    <Image
+                      src="/assets/main.svg"
+                      alt="Main SVG"
+                      height={300}
+                      width={300}
+                      className="w-full"
+                    />
+                  </MouseParallaxChild>
+                  <h1 className="xs:text-5xl z-40 hidden text-4xl font-bold sm:text-6xl md:text-5xl lg:flex lg:text-7xl xl:text-8xl">
+                    CRAFTING
+                  </h1>
+                </div>
+
+                {/* Box-02 */}
+                <div className="xs:-mt-28 xs:text-5xl z-40 -mt-16 hidden flex-col items-end gap-1 bg-transparent text-4xl font-bold sm:-mt-28 sm:text-6xl md:-mt-24 md:items-center md:gap-5 md:text-5xl lg:-mt-24 lg:flex lg:flex-row lg:text-7xl xl:-mt-20 xl:text-8xl">
+                  <h1>ONLINE</h1>
+                  <h1>EXPERIENCES</h1>
+                </div>
+
+                {/* Box-03 */}
+                <div className=" absolute right-0 flex flex-col items-end px-6 text-4xl font-bold sm:text-5xl md:text-6xl lg:hidden lg:px-0">
+                  <p>CRAFTING</p>
+                  <p>ONLINE</p>
+                  <p>EXPERIENCES</p>
+                </div>
+              </div>
             </div>
           </div>
-          {/* ROW-3 */}
-          {/* <div className="mt-10 flex flex-col px-1 md:hidden">
-            <p className="mb-2 text-sm tracking-widest">ABOUT</p>
-            <p className=" text-sm leading-5 tracking-wider">
-              I’m a front-end developer and co-founder of Codista, a software
-              studio in Vienna. I also write about the web on my blog and
-              elsewhere.
-            </p>
-          </div> */}
         </div>
       </div>
     </MouseParallaxContainer>
