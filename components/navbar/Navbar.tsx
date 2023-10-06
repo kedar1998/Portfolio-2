@@ -16,19 +16,19 @@ const Navbar = () => {
           </Link>
           <div className="hidden items-center justify-around py-4  text-sm tracking-widest md:flex md:w-3/5">
             <Link
-              href="/"
+              href="#projects"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               PROJECTS
             </Link>
             <Link
-              href="/"
+              href="#experiments"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               EXPERIMENT
             </Link>
             <Link
-              href="/"
+              href="#about"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               ABOUT

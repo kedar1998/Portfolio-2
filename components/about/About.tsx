@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-[1440px]">
+    <div id="about" className="mx-auto max-w-[1440px]">
       <div className="mt-10 bg-primaryBlack py-20 text-lightGray md:px-36">
         <div className="pb-5">
           <div className="flex items-end md:justify-around">
@@ -11,7 +11,12 @@ const About = () => {
               ABOUT ME
             </h1>
             <div className="hidden items-center gap-3 text-sm md:flex">
-              <p className="tracking-widest">SEND ME A NOTE</p>
+              <a
+                href="mailto:kedarmakode1598@gmail.com"
+                className="tracking-widest"
+              >
+                SEND ME A NOTE
+              </a>
               <Image
                 src="/assets/arrow.svg"
                 alt="arrow"
@@ -26,7 +31,7 @@ const About = () => {
           {/* Project-01 */}
           <div className="flex flex-col  items-center justify-center border-darkGray p-5  lg:w-2/5 lg:border-x-[1px]">
             <Image
-              src="/assets/profile.svg"
+              src="/assets/profile2.png"
               alt="profile image"
               width={350}
               height={350}
@@ -97,9 +102,9 @@ const About = () => {
                   Backend Development
                 </h2>
                 <p className="pb-2 text-sm tracking-wider">
-                  Skilled in Node.js, Express.js, and MongoDB, I craft scalable
-                  server-side solutions and optimize data management for
-                  seamless web application integration.
+                  Skilled in Node.js, Express.js, AWS, and MongoDB, I craft
+                  scalable server-side solutions and optimize data management
+                  for seamless web application integration.
                 </p>
               </div>
             </div>
