@@ -41,9 +41,14 @@ const Navbar = () => {
               width={20}
               height={20}
             />
-            <p className="tracking-widest hover:cursor-pointer hover:text-primaryWhite">
+
+            <a
+              href="/assets/resume.pdf"
+              target="_blank"
+              className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
+            >
               RESUME
-            </p>
+            </a>
           </div>
         </div>
       </div>
