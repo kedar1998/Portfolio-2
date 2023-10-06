@@ -22,9 +22,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className=" flex w-full flex-col border-y-[1px]  border-darkGray md:mx-auto  md:max-w-4xl md:flex-row  md:pl-36">
+        <div className=" flex w-full flex-col border-y-[1px]  border-darkGray md:mx-auto  md:max-w-4xl lg:flex-row  lg:pl-36">
           {/* Project-01 */}
-          <div className="flex flex-col  justify-center border-darkGray p-5  md:w-2/5 md:border-x-[1px]">
+          <div className="flex flex-col  items-center justify-center border-darkGray p-5  lg:w-2/5 lg:border-x-[1px]">
             <Image
               src="/assets/profile.svg"
               alt="profile image"
@@ -34,17 +34,19 @@ const About = () => {
             />
           </div>
 
-          <div className="flex flex-col justify-start pb-4 text-sm md:w-3/5 md:pb-0 ">
+          <div className="flex w-full flex-col justify-start pb-4 text-sm md:pb-0 lg:w-3/5 ">
             <div className="p-5 tracking-wider">
               <p>
-                Hello, I am Oluwakemi Adeleke. Product and User Experience
-                Designer. I perfectly balance user and business needs to create
-                delightful products. Creating user engaging and immersive
-                applications has always been a longstanding ambition of mine.
+                I'm a full stack developer on a mission to transform ideas into
+                digital reality. My work revolves around blending the art of
+                coding with a deep-rooted problem-solving mindset.
               </p>
               <p className="mt-4">
-                Finding ways to communicate to users in a visually and
-                cohesively inviting way is important to me.{" "}
+                I'm driven by the endless possibilities technology offers and
+                committed to crafting solutions that not only meet user needs
+                but also leave a lasting impact. I am dedicated to creating
+                accessible and efficient products that enhance the
+                digital landscape.
               </p>
             </div>
 
@@ -67,28 +69,37 @@ const About = () => {
                   />
                 </div>
                 <h2 className="py-2 text-lg font-semibold">
-                  Frontend Developer
+                  Frontend Development
                 </h2>
                 <p className="pb-5 text-sm tracking-wider">
-                  Passionate about UI/UX. Over 4 years of development experience
-                  in HTML, CSS, JS, React and NextJS frameworks.
+                  I excel in frontend development with expertise in HTML, CSS,
+                  JavaScript, TypeScript, ReactJS, Next.js, and Tailwind CSS,
+                  crafting visually appealing and high-performance web
+                  interfaces.
                 </p>
               </div>
               <div className="flex h-full flex-col justify-start pl-4 pt-4 md:w-1/2">
                 <div className="flex  items-center gap-2  pt-2">
                   <Image
-                    src="/assets/computer.svg"
+                    src="/assets/nodejs.svg"
+                    height={30}
+                    width={30}
+                    alt="computer"
+                  />
+                  <Image
+                    src="/assets/mongodb.svg"
                     height={30}
                     width={30}
                     alt="computer"
                   />
                 </div>
                 <h2 className="py-2 text-lg font-semibold">
-                  Software Development
+                  Backend Development
                 </h2>
                 <p className="pb-2 text-sm tracking-wider">
-                  Experienced in both functional and OOP: Dart, Python,
-                  Java,JavaScript, TypeScript.
+                  Skilled in Node.js, Express.js, and MongoDB, I craft scalable
+                  server-side solutions and optimize data management for
+                  seamless web application integration.
                 </p>
               </div>
             </div>

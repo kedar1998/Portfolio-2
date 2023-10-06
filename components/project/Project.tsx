@@ -48,7 +48,7 @@ const Project = () => {
             <div className="mb-4 mt-6 md:my-0">
               <div className="flex items-center gap-5">
                 <Image
-                  src="/assets/github.svg"
+                  src="/assets/github2.svg"
                   height={27}
                   width={27}
                   alt="github"
@@ -88,7 +88,7 @@ const Project = () => {
             <div className="mt-8 md:mt-0">
               <div className="flex items-center gap-5">
                 <Image
-                  src="/assets/github.svg"
+                  src="/assets/github2.svg"
                   height={27}
                   width={27}
                   alt="github"
