@@ -43,7 +43,7 @@ const Navbar = () => {
             />
 
             <a
-              href="/assets/resume.pdf"
+              href="./assets/resume.pdf"
               target="_blank"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
