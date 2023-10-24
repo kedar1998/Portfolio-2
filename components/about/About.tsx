@@ -102,9 +102,9 @@ const About = () => {
                   Backend Development
                 </h2>
                 <p className="pb-2 text-sm tracking-wider">
-                  Skilled in Node.js, Express.js, AWS, and MongoDB, I craft
-                  scalable server-side solutions and optimize data management
-                  for seamless web application integration.
+                  Skilled in Node.js, Express.js and MongoDB, I craft scalable
+                  server-side solutions and optimize data management for
+                  seamless web application integration.
                 </p>
               </div>
             </div>
