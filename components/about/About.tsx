@@ -42,9 +42,10 @@ const About = () => {
           <div className="flex w-full flex-col justify-start pb-4 text-sm md:pb-0 lg:w-3/5 ">
             <div className="p-5 tracking-wider">
               <p>
-                I&apos;m a full stack developer on a mission to transform ideas
-                into digital reality. My work revolves around blending the art
-                of coding with a deep-rooted problem-solving mindset.
+                I&apos;m a Full Stack Developer, with a focus on Frontend
+                Development, on a mission to transform ideas into digital
+                reality. My work revolves around blending the art of coding with
+                a deep-rooted problem-solving mindset.
               </p>
               <p className="mt-4">
                 I&apos;m driven by the endless possibilities technology offers

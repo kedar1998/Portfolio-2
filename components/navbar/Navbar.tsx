@@ -21,12 +21,12 @@ const Navbar = () => {
             >
               PROJECTS
             </Link>
-            <Link
+            {/* <Link
               href="#experiments"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
               EXPERIMENT
-            </Link>
+            </Link> */}
             <Link
               href="#about"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
@@ -43,7 +43,7 @@ const Navbar = () => {
             />
 
             <a
-              href="/assets/Resume.pdf"
+              href="/assets/KedarResume.pdf"
               target="_blank"
               className="tracking-widest hover:cursor-pointer hover:text-primaryWhite"
             >
@@ -54,9 +54,9 @@ const Navbar = () => {
       </div>
       <div className="flex w-full items-center justify-between border-b-[1px] border-darkGray  px-6 py-4 text-sm tracking-widest text-lightGray md:hidden">
         <p className="hover:cursor-pointer hover:text-primaryWhite">PROJECTS</p>
-        <p className="hover:cursor-pointer hover:text-primaryWhite">
+        {/* <p className="hover:cursor-pointer hover:text-primaryWhite">
           EXPERIMENT
-        </p>
+        </p> */}
         <p className="hover:cursor-pointer hover:text-primaryWhite">ABOUT</p>
       </div>
     </div>

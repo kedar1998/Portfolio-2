@@ -192,6 +192,7 @@ const Project = () => {
                 <p>Node.js</p>
                 <p>Express.js</p>
                 <p>MongoDB</p>
+                <p>Socket.io</p>
               </div>
             </div>
           </div>
